@@ -7,9 +7,14 @@ Request Clarification
 Download Input & Submit
 Now let's hook up multiplication to your old calculator. Only now you notice your calculator has no parenthesis buttons!
 How will you input a calculation like (1 + 2) * (3 + 4) * (5 + 6)? You decide to use prefix notation, where the operator is input before its operands. For example, our expression is equivalent to both:
+
 * + 1 2 * + 3 4 + 5 6
+
 and
+
 * * + 1 2 + 3 4 + 5 6
+
+
 Write a calculator supporting addition, subtraction and multiplication of integers. The integers can be positive or negative (starting with a -). The formula will be given in prefix notation with a space between each term (operator or operand).
 Like before, your input is a list of n expressions to evaluate, each on their own line, although this time they are in prefix notation and may include multiplications. Each expression is at most 100 characters long. Output the value each expression evaluates to, in order, separated by spaces.
 
